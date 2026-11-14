@@ -17,7 +17,23 @@
       backdrop-filter: blur(12px);
     }
     .hero-overlay {
-      background: linear-gradient(105deg, rgba(12, 74, 110, 0.92) 0%, rgba(15, 118, 110, 0.82) 55%, rgba(13, 148, 136, 0.55) 100%);
+      background:
+        radial-gradient(circle at 78% 22%, rgba(249, 168, 212, 0.24), transparent 38%),
+        linear-gradient(110deg, rgba(67, 25, 52, 0.94) 0%, rgba(131, 24, 73, 0.84) 48%, rgba(190, 24, 93, 0.64) 100%);
+    }
+    #top .text-teal-100,
+    #top .text-sky-100 {
+      color: #fff1f2;
+    }
+    #top .text-teal-300 {
+      color: #fbcfe8;
+    }
+    #top .bg-teal-500 {
+      background: linear-gradient(110deg, #fbcfe8, #f9a8d4, #e879f9);
+      color: #500724;
+    }
+    #top .bg-teal-500:hover {
+      filter: brightness(1.05);
     }
   </style>
 </head>
